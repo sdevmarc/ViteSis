@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--black3);
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --white1: #ffffff;
+    --white2: #fefefe;
+    --black1: #000000;
+    --black2: #111111;
+    --black3: #222222;
+    --black4: #333333;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header form .user {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+header .user .profile-pic {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header .user img {
+    width: 3rem;
+}
+
+header button {
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: .4rem;
+    background: rgb(238, 238, 238);
+    transition: .3s ease;
+}
+
+header button:hover {
+    background: rgb(0, 214, 0);
+    scale: .98;
+    color: var(--white1);
+}

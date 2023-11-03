@@ -8,9 +8,9 @@ const Login = () => {
             <Header />
             <section className="section-1">
                 <div className="login-form">
-                    <form action="/">
+                    <form action="/dashboard">
                         <h1>Login</h1>
-                        <input type="email" placeholder='Username' required />
+                        <input type="text" placeholder='Username' required />
                         <input type="password" placeholder='Password' required />
                         <button type="submit">
                             Login
