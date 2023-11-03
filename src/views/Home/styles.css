@@ -46,7 +46,7 @@ section {
 
 .section-2 {
     background: url('./assets/BG1.png');
-    background-size: cover;
+    background-size: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
